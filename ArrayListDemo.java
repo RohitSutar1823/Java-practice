@@ -40,7 +40,8 @@ public class ArrayListDemo {
 		System.out.println("Before sorting:"+l1);
 		Collections.sort(l1);
 		System.out.println("After sorting"+l1);
-
+		ArrayList<Integer> newlist=(ArrayList<Integer>) l1.clone();
+		System.out.println(newlist);
 
 
 
