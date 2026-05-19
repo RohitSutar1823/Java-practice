@@ -37,6 +37,10 @@ public class ArrayListDemo {
 		System.out.println(l1.contains(5));
 		System.out.println(l1.size());
 		System.out.println(l1.indexOf(4));
+		System.out.println("Before sorting:"+l1);
+		Collections.sort(l1);
+		System.out.println("After sorting"+l1);
+
 
 
 
